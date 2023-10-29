@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="main-nav">
+        <div id="top-nav">
+          <p id="top-nav-text">COD + Free Shipping + Free Returns</p>
+        </div>
+
+        <div class="nav-container">
+          <div class="logo">
+            <i class="fa fa-bars menu-icon"></i>
+
+            <a href="/"
+              ><img
+                src="./images/logo.png"
+                alt="Logo"
+                width="60px"
+                height="60px"
+            /></a>
+          </div>
+          <div class="links">
+            <a href="#">Dining</a>
+            <a href="#">Garden</a>
+            <a href="#">Decor</a>
+            <a href="#">Lighting</a>
+            <a href="#">Best-Sellers</a>
+            <a href="#">Collections</a>
+            <a href="#">More</a>
+            <a href="#">Deals</a>
+            <div class="mega-menu">
+              <div class="mega-category">
+                <div class="row">
+                  <header>DRINKWARE</header>
+                  <ul class="mega-links">
+                    <li><a href="">Coffee Mugs</a></li>
+                    <li><a href="">Tea Cups</a></li>
+                    <li><a href="">Jugs & Kettles</a></li>
+                    <li><a href="">Beer Mugs</a></li>
+                    <li><a href="">Kullads</a></li>
+                  </ul>
+
+                  <header>KITCHEN STORAGE</header>
+                  <ul class="mega-links">
+                    <li><a href="">Jugs & Kettles</a></li>
+                    <li><a href="">Beer Mugs</a></li>
+                    <li><a href="">Kullads</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>SERVEWARE</header>
+                  <ul class="mega-links">
+                    <li><a href="">Dip & Chutney Bowls</a></li>
+                    <li><a href="">Dining Bowl Katoris</a></li>
+                    <li><a href="">Serving Bowls</a></li>
+                    <li><a href="">Quarter Plates</a></li>
+                    <li><a href="">Chapati Boxes</a></li>
+                    <li><a href="">Soup Bowls</a></li>
+                    <li><a href="">Serving Platters</a></li>
+                    <li><a href="">Dinner Plates</a></li>
+                    <li><a href="">Kadhai & Handis</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>TABLEWARE</header>
+                  <ul class="mega-links">
+                    <li><a href="">Napkin Holders</a></li>
+                    <li><a href="">Coasters</a></li>
+                    <li><a href="">Salt & Pepper Shakers</a></li>
+                    <li><a href="">Cutlery Holders</a></li>
+                    <li><a href="">Toothpick Holders</a></li>
+                  </ul>
+
+                  <header>MORE KITCHEN & DINING</header>
+                  <ul class="mega-links">
+                    <li><a href="">Cutlery</a></li>
+                    <li><a href="">Cake Stands</a></li>
+                    <li><a href="">Chopping Boards</a></li>
+                    <li><a href="">Fruit Baskets</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>CUTLERY</header>
+                  <ul class="mega-links">
+                    <li><a href="">Cutlery Serving Set</a></li>
+                    <li><a href="">Forks Set</a></li>
+                    <li><a href="">Spoons Set</a></li>
+                    <li><a href="">Knives Set</a></li>
+                    <li><a href="">Bottle Opener</a></li>
+                    <li><a href="">Other Cutlery</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="search">
+            <i class="fa-regular fa-circle-xmark"></i>
+            <input type="text" placeholder="Search" id="search-input" />
+            <i class="fas fa-search" id="search-icon"></i>
+            <i class="fas fa-shopping-cart"></i>
+
+            <div class="icons"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Carousel -->
+
+      <section class="carousel">
+        <div class="carousel-frame active">
+          <div class="carousel-text">
+            <h2>Spice Boxes</h2>
+            <p>Range of spice boxes crafted with unique art forms.</p>
+            <button>Shop Now</button>
+          </div>
+          <img src="./images/carousel1.jpg" alt="Image 1" />
+        </div>
+        <div class="carousel-frame next">
+          <img src="./images/carousel2.jpg" alt="Image 2" />
+          <div class="carousel-text">
+            <h2>Spice Boxes</h2>
+            <p>Range of spice boxes crafted with unique art forms.</p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="carousel-frame next">
+          <div class="carousel-text">
+            <h2>Spice Boxes</h2>
+            <p>Range of spice boxes crafted with unique art forms.</p>
+            <button>Shop Now</button>
+          </div>
+          <img src="./images/carousel3.jpg" alt="Image 3" />
+        </div>
+        <button class="carousel-btn prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </section>
+
+      <!-- Categories Section -->
+
+      <section class="categories">
+        <h3>Handcrafted in India</h3>
+        <h4>Shop By Category</h4>
+        <div class="category-links">
+          <a href="#">
+            <img src="./images/categories1.jpg" alt="category one" />
+            <p>Coffee Mugs</p>
+          </a>
+          <a href="#">
+            <img src="./images/categories2.jpg" alt="category two" />
+            <p>Hanging Planters</p>
+          </a>
+          <a href="#">
+            <img src="./images/categories3.jpg" alt="category three" />
+            <p>Oil Bottles</p>
+          </a>
+          <a href="#">
+            <img src="./images/categories4.jpg" alt="category four" />
+            <p>Wall Hangings</p>
+          </a>
+          <a href="#">
+            <img src="./images/categories5.jpg" alt="category five" />
+            <p>Showpieces & Curios</p>
+          </a>
+          <a href="#">
+            <img src="./images/categories6.jpg" alt="category six" />
+            <p>Spice Boxes</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Trending Section -->
+
+      <section class="trending">
+        <div class="trending-title">
+          <h4>Trending</h4>
+          <a href="#">view all</a>
+        </div>
+        <div class="trending-card">
+          <div class="trending-product">
+            <div class="badge">Best Selling</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories3.jpg" alt="Product one" />
+            <div class="trending-item-content">
+              <h5>
+                The 'Old Fashioned' Hand Glazed Studio Pottery Ceramic Oil
+                Bottle (1000 ML)
+              </h5>
+              <div class="star-ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>5 reviews</span>
+              </div>
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">Best Selling</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories4.jpg" alt="Product two" />
+            <div class="trending-item-content">
+              <h5>Gayatri Mantra Terracotta Wall Hanging</h5>
+              <div class="star-ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>8 reviews</span>
+              </div>
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">Best Selling</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories2.jpg" alt="Product three" />
+            <div class="trending-item-content">
+              <h5>
+                Coloured Fish' Handmade & Hand-Painted Garden Decorative Wall
+                Hanging In Terracotta
+              </h5>
+              <div class="star-ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>10 reviews</span>
+              </div>
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">Best Selling</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories1.jpg" alt="Product four" />
+            <div class="trending-item-content">
+              <h5>
+                'Twelve Blends' Spice Box With 12 Containers & Spoon In Sheesham
+                Wood
+              </h5>
+              <div class="star-ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>10 reviews</span>
+              </div>
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">Best Selling</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories6.jpg" alt="Productfive" />
+            <div class="trending-item-content">
+              <h5>
+                Sheesham Wood Square Spice Box With Spoon (9 Compartments)
+              </h5>
+              <div class="star-ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>12 reviews</span>
+              </div>
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Collections Section -->
+
+      <section class="collections">
+        <h4>New Collections</h4>
+        <div class="category-links">
+          <a href="#">
+            <img src="./images/collection1.jpg" alt="category one" />
+            <p>Table Lamps</p>
+          </a>
+          <a href="#">
+            <img src="./images/collection2.jpg" alt="category two" />
+            <p>Wall Decor</p>
+          </a>
+          <a href="#">
+            <img src="./images/collection3.jpg" alt="category three" />
+            <p>The Brass Beams</p>
+          </a>
+          <a href="#">
+            <img src="./images/collection4.jpg" alt="category four" />
+            <p>Showpieces</p>
+          </a>
+          <a href="#">
+            <img src="./images/collection5.jpg" alt="category five" />
+            <p>Scented Candles</p>
+          </a>
+          <a href="#">
+            <img src="./images/collection6.jpg" alt="category six" />
+            <p>The Ceramic Treasure</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- New Arrivals Section-->
+
+      <section class="new-arrivals">
+        <div class="trending-title">
+          <h4>New Arrivals</h4>
+          <a href="#">view all</a>
+        </div>
+        <div class="trending-card">
+          <div class="trending-product">
+            <div class="badge">New Arrival</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories3.jpg" alt="Product one" />
+            <div class="trending-item-content">
+              <h5>
+                The 'Old Fashioned' Hand Glazed Studio Pottery Ceramic Oil
+                Bottle (1000 ML)
+              </h5>
+
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">New Arrival</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories4.jpg" alt="Product two" />
+            <div class="trending-item-content">
+              <h5>Gayatri Mantra Terracotta Wall Hanging</h5>
+
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">New Arrival</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories2.jpg" alt="Product three" />
+            <div class="trending-item-content">
+              <h5>
+                Coloured Fish' Handmade & Hand-Painted Garden Decorative Wall
+                Hanging In Terracotta
+              </h5>
+
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">New Arrival</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories1.jpg" alt="Product four" />
+            <div class="trending-item-content">
+              <h5>
+                'Twelve Blends' Spice Box With 12 Containers & Spoon In Sheesham
+                Wood
+              </h5>
+
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+          <div class="trending-product">
+            <div class="badge">New Arrival</div>
+            <div class="product-icons">
+              <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+              <button class="preview-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <img src="./images/categories6.jpg" alt="Productfive" />
+            <div class="trending-item-content">
+              <h5>
+                Sheesham Wood Square Spice Box With Spoon (9 Compartments)
+              </h5>
+
+              <p>
+                <span class="discounted-price">Rs.250.00</span>
+                <span class="initial-price">Rs.300.00 </span>
+                <span class="percent-off">(20% off)</span>
+              </p>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Art Section -->
+
+      <section class="art-section">
+        <h4>Shop By Art</h4>
+        <div class="category-links">
+          <a href="#">
+            <img src="./images/art1.jpg" alt="art one" />
+            <p>Warli Art</p>
+          </a>
+          <a href="#">
+            <img src="./images/art2.jpg" alt="art two" />
+            <p>Madhubani Art</p>
+          </a>
+          <a href="#">
+            <img src="./images/art3.jpg" alt="art three" />
+            <p>Dhokra Art</p>
+          </a>
+          <a href="#">
+            <img src="./images/art4.jpg" alt="art four" />
+            <p>Meenakari Art</p>
+          </a>
+          <a href="#">
+            <img src="./images/art5.jpg" alt="art five" />
+            <p>Ghantadi Art</p>
+          </a>
+          <a href="#">
+            <img src="./images/art6.jpg" alt="art six" />
+            <p>Pyrography Art</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Material Section -->
+
+      <section class="material">
+        <h4>Shop By Material</h4>
+        <div class="category-links">
+          <a href="#">
+            <img src="./images/material1.jpg" alt="material one" />
+            <p>Brass</p>
+          </a>
+          <a href="#">
+            <img src="./images/material2.jpg" alt="material two" />
+            <p>Ceramic</p>
+          </a>
+          <a href="#">
+            <img src="./images/material3.jpg" alt="material three" />
+            <p>Terracotta</p>
+          </a>
+          <a href="#">
+            <img src="./images/material4.jpg" alt="material four" />
+            <p>Wood</p>
+          </a>
+          <a href="#">
+            <img src="./images/material5.jpg" alt="material five" />
+            <p>Iron</p>
+          </a>
+          <a href="#">
+            <img src="./images/material6.jpg" alt="material six" />
+            <p>Steel</p>
+          </a>
+        </div>
+      </section>
+      <section class="videos">
+        <div class="videos-content">
+          <a
+            href="https://www.youtube.com/watch?v=FPlHxkbj9Ms"
+            target="_blank"
+            class="videos-link"
+          >
+            <img
+              class="videos-image"
+              src="https://cdn.shopify.com/s/files/1/0030/9759/1872/files/Youtube_thumbnail_ARTISAN_STORIES_6_278072ef-76ff-4690-92eb-4b4d556443e0.png?v=1657104942"
+              data-src="https://cdn.shopify.com/s/files/1/0030/9759/1872/files/Youtube_thumbnail_ARTISAN_STORIES_6_278072ef-76ff-4690-92eb-4b4d556443e0.png?v=1657104942"
+              alt="Artisan Stories by ExclusiveLane- Meet Taslim Saahib"
+              width="100%"
+              height="100%"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=pOila1xq93Y"
+            target="_blank"
+            class="videos-link"
+          >
+            <img
+              src="https://cdn.shopify.com/s/files/1/0030/9759/1872/files/Youtube_thumbnail_ARTISAN_STORIES_5.png?v=1587125965"
+              data-src="https://cdn.shopify.com/s/files/1/0030/9759/1872/files/Youtube_thumbnail_ARTISAN_STORIES_5.png?v=1587125965"
+              alt="Artisan Stories by ExclusiveLane- Meet Rahman Sahib"
+              width="100%"
+              height="100%"
+              class="videos-image"
+            />
+          </a>
+        </div>
+        <div class="videos-more">
+          <a href="#">view all</a>
+        </div>
+      </section>
+      <div id="overlay" class="overlay"></div>
+      <div id="popup-player" class="popup-player">
+        <!-- This is where the YouTube player will be inserted -->
+      </div>
+
+      <!-- About Us -->
+
+      <section class="about-us">
+        <div class="about-us-section">
+          <div class="about-us-content">
+            <img src="./images/about1.jpg" alt="About-us one" />
+            <article class="about-us-article">
+              <h4>Our Mission</h4>
+              <p>
+                Our mission is to curate beautifully handcrafted products from
+                across the globe. We preserve the traditional art of India
+                handed down to us by our ancestors, helping our talented
+                artisans gain global recognition through the products that can
+                be used on a daily basis in the urban market. Our vision is to
+                be an International Brand synonym to craft. We are well on our
+                way with a solemn goal to provide economic upliftment of the
+                rural artisans that are involved in preserving the heritage of
+                the handicrafts industry in India.
+              </p>
+            </article>
+          </div>
+          <div class="about-us-content">
+            <article class="about-us-article">
+              <h4>Made In India</h4>
+              <p>
+                ExclusiveLane is an online craft brand started in 2012 with a
+                vision to promote Indian handicrafts globally & help small
+                artisans based in different parts of India earn a living out of
+                it.
+              </p>
+            </article>
+            <img src="./images/about2.jpg" alt="About us two" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Learn More Section -->
+
+      <section class="learn-more">
+        <div class="learn-more-content">
+          <div class="learn-more-image">
+            <img src="./images/learn-more.jpg" alt="Learn more" width="100%" />
+          </div>
+          <div class="learn-more-box">
+            <h4>Become a Retailer or a WholeSale Buyer</h4>
+            <p>Get attractive prices on Bulk Orders</p>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Article -->
+
+      <section class="article">
+        <article class="article-box">
+          <div class="article-content">
+            <h4>ExclusiveLane: The Indian Handicraft Catalogue</h4>
+            <p>
+              ExclusiveLane is inspired by a generation that is highly connected
+              with its roots. Hence, we have crafted this platform that connects
+              you to the artisans of India and showcases their work by providing
+              you with the best handicraft items online. We aim to make the
+              experience of buying aesthetic and contemporary products online
+              delightful for customers. Also, the core motive is to make sure
+              the handicraft industry in India gets a digital boost. We are here
+              to make purchasing products online convenient for your lifestyle,
+              making life simpler & safer for you.
+            </p>
+            <a href="#"><button>Read more ...</button></a>
+          </div>
+        </article>
+      </section>
+      <hr />
+
+      <footer>
+        <div class="subscribe">
+          <p>
+            Subscribe to get special offers, free giveaways, and
+            once-in-a-lifetime deals.
+          </p>
+          <div class="subscribe-input">
+            <input type="text" placeholder="Enter your Email" />
+            <button>Subscribe</button>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-content">
+            <div class="footer-customer">
+              <div class="footer-service">
+                <h6>About Company</h6>
+                <a href="#">About Us</a>
+                <a href="#">Reviews</a>
+                <a href="#">Blog</a>
+                <a href="#">Coupons</a>
+                <a href="#">FAQs</a>
+              </div>
+              <div class="footer-service">
+                <h6>Customer Service</h6>
+                <a href="#">Track Order</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Shipping & Returns</a>
+                <a href="#">Bulk Orders</a>
+                <a href="#">Terms & Conditions</a>
+              </div>
+            </div>
+            <div class="footer-contact">
+              <div class="footer-social">
+                <h6>Get in Touch</h6>
+                <p>
+                  <i class="fa fa-phone"></i>
+                  <span class="phone">1234567890</span>
+                </p>
+              </div>
+              <div class="footer-social">
+                <h6>Follow Us</h6>
+                <div class="footer-sm-icons">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-pinterest"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ac1be87f79.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
